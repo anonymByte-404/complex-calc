@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Explicitly declare text files with LF normalization
+*.cpp text eol=lf
+*.h text eol=lf
+*.txt text eol=lf
+
+# Explicitly declare binary files (no line ending conversions, no diff)
+*.exe binary
+
+# IDE-specific files (don't perform any line-ending conversion)
+.vscode/ binary
