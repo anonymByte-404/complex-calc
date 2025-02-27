@@ -1,0 +1,11 @@
+# Ignore build directories
+/build/
+
+# IDE and editor files
+.vscode/
+
+# Compiler specific files
+*.exe
+
+# VS Code settings
+.vscode/*
