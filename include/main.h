@@ -1,6 +1,10 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+// Core
+#include "./core/equation_solver.h"
+#include "./core/expression_parser.h"
+
 // Functions
 #include "./logic/functions/cubic.h"
 #include "./logic/functions/linear.h"
